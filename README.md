@@ -3,9 +3,9 @@ These are folders containing implementations of examples of things I am learning
 
 ### Planned Examples
 
-* DCPU-16 Emulator/Interpretor
+* ???
 
-The implementation of the programmer's second(?) emulation/interpretation project. A bit more tricky due to having a more complex RISC design of sorts than the Chip-8. It's lovely though and created originally by Mojang.
+A weird example of a fantasy architecture building upon the Spinscript project.
 
 * Lua's C API
 
