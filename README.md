@@ -3,13 +3,13 @@ These are folders containing implementations of examples of things I am learning
 
 ### Planned Examples
 
-* Shader Reloading in OpenGL
-
-This will be a simple implementation of the popular ShaderToy web enviromment in OpenGL 4.6! The main idea is being capable of quickly seeing what your shader results into.
-
 * Chip-8 Emulator/Interpretor
 
 The implementation of the programmer's first emulation/interpretation project. This should be a bit cleaner than my past attempts. Surprisingly only a few instructions actually pose any difficulty!
+
+* DCPU-16 Emulator/Interpretor
+
+The implementation of the programmer's second(?) emulation/interpretation project. A bit more tricky due to having a more complex RISC design of sorts than the Chip-8. It's lovely though and created originally by Mojang.
 
 * Lua's C API
 
@@ -42,3 +42,12 @@ In the SDL2 example (currently being finalized) `stat` and its main struct are u
 Multithreading makes use of the threads inside your CPU to run functions in parallel. One can describe it as having multiple `main`s running at once! However synchronization is necessary to keep them from accessing variables at the same time.
 
 The current example showcases 3 threads being spawned, and safely incrementing a variable using mutexes, a sort of thread lock variable, along with keeping a previous copy to let you know later the thread. The incremented variable doubles as the time in seconds for the thread to sleep for, which after that it'll then inform itself. The threads end after that, and the main one as well.
+
+### Shader Reloading
+*Difficulty: Weird*
+
+*Utilized: Linux's stat functions/structs, OpenGL 4.6, GLAD*
+
+Shader Reloading applies the topic in Hot Reloading to shaders, which are perfect for this sort of job. The idea I had was to make a similar env to ShaderToy, a popular free WebGL shader learning/programming website. I have had quite some experience with GL previously so I used a small framework I call 'Monroe' for this. It's MIT licensed like everything else.
+
+However, I had issue with the reloading. The screen will go blank after reloading and even after hours of trying to solve it I just don't have a clue what happened. Currently it is a Heisenbug and it just does not work in my machine, yet it does in other people's. Well, I'll move on and forget this for the better. Ugh.
