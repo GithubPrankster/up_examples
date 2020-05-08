@@ -3,10 +3,6 @@ These are folders containing implementations of examples of things I am learning
 
 ### Planned Examples
 
-* Chip-8 Emulator/Interpretor
-
-The implementation of the programmer's first emulation/interpretation project. This should be a bit cleaner than my past attempts. Surprisingly only a few instructions actually pose any difficulty!
-
 * DCPU-16 Emulator/Interpretor
 
 The implementation of the programmer's second(?) emulation/interpretation project. A bit more tricky due to having a more complex RISC design of sorts than the Chip-8. It's lovely though and created originally by Mojang.
