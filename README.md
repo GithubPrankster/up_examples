@@ -1,6 +1,30 @@
 # The Uneven Prankster Examples
 These are folders containing implementations of examples of things I am learning about, mainly to put to the test what I acquired and become smarter at all that stuff. I made them open source because you should be able to learn too, young me would love these.
 
+### Planned Examples
+
+* Shader Reloading in OpenGL
+
+This will be a simple implementation of the popular ShaderToy web enviromment in OpenGL 4.6! The main idea is being capable of quickly seeing what your shader results into.
+
+* Chip-8 Emulator/Interpretor
+
+The implementation of the programmer's first emulation/interpretation project. This should be a bit cleaner than my past attempts. Surprisingly only a few instructions actually pose any difficulty!
+
+* Lua's C API
+
+I already have quite some knowledge with it, but I want to do examples of all the stuff I love, and this is one of them. You can obviously also do reloading in this one, however I will mainly focus on more game-destined uses.
+
+* CUDA C Programming
+
+I have not touched Nvidia's CUDA other than one long time ago. GPU programming is all the rage these days so I am curious about what it can do! The example will be likely a raytracing one.
+
+* MPEG-1 Decoding
+
+Mainly examples on using `pl_mpeg.h` for OpenGL and SDL2's software-esque rendering, and empowering your program with crispy pixelated video! Amazing for retro games with FMV-esque sequences. Included will be a CC licensed example video made by me.
+
+# Examples, Explained!
+
 ### Hot Reloading
 *Difficulty: Tricky*
 
