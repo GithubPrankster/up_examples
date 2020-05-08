@@ -48,3 +48,13 @@ unsigned int me_shader_create(const char* vsrc, const char* fsrc)
     glDeleteShader(vertex);
     return prog;
 }
+
+void me_shader_float(const unsigned int shr, const char* name, const float var)
+{
+    glUniform1f(glGetUniformLocation(shr, name), var);
+}
+
+void me_shader_vec2(const unsigned int shr, const char* name, const float *var)
+{
+    glUniform2fv(glGetUniformLocation(shr, name), 1, &var[0]);
+}

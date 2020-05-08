@@ -68,6 +68,9 @@ int main(int argc, char** argv)
 
         glClear(GL_COLOR_BUFFER_BIT);
         glUseProgram(program);
+        me_shader_float(program, "time", (float)SDL_GetTicks());
+        float res[] = {win->width, win->height};
+        me_shader_vec2(program, "res", res);
         me_mesh_render(tri);
 
         SDL_GL_SwapWindow(win->window);
