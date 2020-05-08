@@ -3,10 +3,6 @@ These are folders containing implementations of examples of things I am learning
 
 ### Planned Examples
 
-* ???
-
-A weird example of a fantasy architecture building upon the Spinscript project.
-
 * Lua's C API
 
 I already have quite some knowledge with it, but I want to do examples of all the stuff I love, and this is one of them. You can obviously also do reloading in this one, however I will mainly focus on more game-destined uses.
@@ -18,6 +14,10 @@ I have not touched Nvidia's CUDA other than one long time ago. GPU programming i
 * MPEG-1 Decoding
 
 Mainly examples on using `pl_mpeg.h` for OpenGL and SDL2's software-esque rendering, and empowering your program with crispy pixelated video! Amazing for retro games with FMV-esque sequences. Included will be a CC licensed example video made by me.
+
+* ???
+
+A weird example of a fantasy architecture building upon the Spinscript project.
 
 # Examples, Explained!
 
