@@ -21,11 +21,11 @@ void *func(void *val)
 
 int main(void)
 {
-    pthread_mutex_init(&mutex, NULL);
     pthread_t thr[3];
     for(int i = 0; i < 3; i++)
         pthread_create(&thr[i], NULL, func, NULL);
     
-    pthread_exit(NULL);
+    for(int i = 0; i < 3; i++)
+        pthread_join(thr[i], NULL);
     return 0;
 }
